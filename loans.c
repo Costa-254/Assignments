@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&age);
     printf("Enter AnnualIncome: ");
     scanf("%f",&AnnualIncome);
-    if(age>=21){
+    if(age>=21 && AnnualIncome>=21000){
         printf("Congratulations you qualify for the loan");
     }
     else{
